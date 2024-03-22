@@ -13,6 +13,7 @@ import hockeyStore from './assets/project-images/hockey-store.png';
 import universityWebsite from './assets/project-images/university-website.png';
 import unsplashImages from './assets/project-images/unsplash-images.png';
 import hockeyDatabase from './assets/project-images/hockey-database.png';
+import jobTracker from './assets/project-images/job-tracker.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -76,6 +77,14 @@ export const projects = [
     github: 'https://github.com/SrivatsanViswanathan/react-hockey-store',
     title: "Sri's Pucks",
     text: 'An E-commerce store where people can browse for hockey equipment, add them to cart, and purchase them',
+  },
+  {
+    id: nanoid(),
+    img: jobTracker,
+    url: 'https://job-tracker-1ks3.onrender.com',
+    github: 'https://github.com/SrivatsanViswanathan/job-tracker',
+    title: 'Job Tracker',
+    text: 'A web application where the user can register, login, add, update, and delete jobs they have applied for',
   },
   {
     id: nanoid(),
