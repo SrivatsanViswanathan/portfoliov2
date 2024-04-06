@@ -1,6 +1,6 @@
 import React from 'react';
 import meImg from '../assets/me.png';
-import Resume from '../assets/Resume.pdf';
+import Resume from '../assets/Srivatsan_Viswanathan_Resume.pdf';
 import { FaGithubSquare, FaLinkedin, FaFilePdf } from 'react-icons/fa';
 
 const Hero = () => {
